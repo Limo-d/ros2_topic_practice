@@ -1,0 +1,29 @@
+[0.024s] Invoking command in '/home/liu/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/liu/chapt3/topic_practice_ws/install/status_interfaces:/home/liu/chapt3/topic_practice_ws/install/status_display:/home/liu/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/liu/chapt3/topic_practice_ws/build/status_display -- -j12 -l12
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.149s] [ 50%] Built target hello_qt
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[13.953s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[16.871s] [100%] Built target sys_status_display
+[16.885s] Invoked command in '/home/liu/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/liu/chapt3/topic_practice_ws/install/status_interfaces:/home/liu/chapt3/topic_practice_ws/install/status_display:/home/liu/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/liu/chapt3/topic_practice_ws/build/status_display -- -j12 -l12
+[16.887s] Invoking command in '/home/liu/chapt3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/liu/chapt3/topic_practice_ws/install/status_interfaces:/home/liu/chapt3/topic_practice_ws/install/status_display:/home/liu/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/liu/chapt3/topic_practice_ws/build/status_display
+[16.899s] -- Install configuration: ""
+[16.900s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[16.900s] -- Installing: /home/liu/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[16.905s] -- Set runtime path of "/home/liu/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[16.905s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[16.905s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[16.905s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[16.905s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[16.905s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[16.906s] -- Installing: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[16.906s] -- Up-to-date: /home/liu/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[16.908s] Invoked command in '/home/liu/chapt3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/liu/chapt3/topic_practice_ws/install/status_interfaces:/home/liu/chapt3/topic_practice_ws/install/status_display:/home/liu/chapt3/topic_practice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/liu/chapt3/topic_practice_ws/build/status_display

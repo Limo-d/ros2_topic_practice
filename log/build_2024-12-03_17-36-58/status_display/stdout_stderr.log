@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQApllication[m[K’ was not declared in this scope; did you mean ‘[01m[KQApplication[m[K’?
+    7 |     [01;31m[KQApllication[m[K app(argc,argv);
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[KQApplication[m[K
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:9:23:[m[K [01;31m[Kerror: [m[K‘[01m[KQstring[m[K’ has not been declared
+    9 |     QString message = [01;31m[KQstring[m[K::fromStdString("Hello Qt!");
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kapp[m[K’ was not declared in this scope
+   12 |     [01;31m[Kapp[m[K.exec();//执行应用
+      |     [01;31m[K^~~[m[K
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:5:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    5 | int main([01;35m[Kint argc[m[K,char* argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/liu/chapt3/topic_practice_ws/src/status_display/src/hello_qt.cpp:5:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    5 | int main(int argc,[01;35m[Kchar* argv[][m[K)
+      |                   [01;35m[K~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:76: CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_qt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
