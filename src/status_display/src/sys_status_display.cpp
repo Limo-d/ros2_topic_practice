@@ -7,7 +7,7 @@ using SystemStatus = status_interfaces::msg::SystemStatus;
 class SysStatusDisplay : public rclcpp::Node
 {
 private:
-    /* data */
+    
     rclcpp::Subscription<SystemStatus>::SharedPtr subscriber;
     QLabel* label;
 public:
