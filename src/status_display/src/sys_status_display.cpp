@@ -4,6 +4,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <status_interfaces/msg/system_status.hpp>
 using SystemStatus = status_interfaces::msg::SystemStatus;
+#include <iostream>
 class SysStatusDisplay : public rclcpp::Node
 {
 private:
@@ -48,10 +49,6 @@ int main(int argc,char *argv[])
     std::thread spin_thread([&]()->void{
             rclcpp::spin(node);
     });
-    // QLabel* label = new QLabel();
-    // QString message = QString::fromStdString("Hello Qt!");
-    // label->setText(message);
-    // label->show();
     spin_thread.detach();
     app.exec();//执行应用
     return 0;
